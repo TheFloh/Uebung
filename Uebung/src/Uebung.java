@@ -9,8 +9,9 @@ public class Uebung {
 		
 public static void main(String[] args) {
 	System.out.println("fac(2) = "+fac(2));
-	System.out.println(fibonacci(8));}
-
+	System.out.println(fibonacci(8));
+    collatz(244444445);
+}
 	
 static void fibfolge(long max){
 	for(long i =0; i<=max;i++){
@@ -29,12 +30,15 @@ static long fibonacci(long i){
 		}
 	}
 
-static long collatz (long a);{
-	if a
+
+static void collatz(long n){
+while (n>1){
+	if (n%2==0) {n=n/2;}
+	else{n=3*n+1;}
+System.out.println(n);
+}}
 }
 
-
-}
 
 
 
