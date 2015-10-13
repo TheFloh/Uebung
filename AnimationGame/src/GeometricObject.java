@@ -57,7 +57,15 @@ public class GeometricObject {
 
     public void move(Vertex v) {moveTo(pos.add(v));}
 
-
+    public boolean equals(Object thatObject){
+    	if (thatObject instanceof GeometricObject){
+    		GeometricObject that =(GeometricObject)thatObject;
+    		
+    	return that.width==this.width && this.height==that.height
+    		   && this.pos.equals(that.pos);}
+    	return false;}
+    	
+    
 }
 
 

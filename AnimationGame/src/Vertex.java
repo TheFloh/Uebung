@@ -76,9 +76,10 @@ public double distance(Vertex v2){
 public void normalize(){
 	double factor =  this.length();
 	x=x/factor;
-	y=y/factor;
+	y=y/factor;}
 
-}
+
+
 
 
 }
