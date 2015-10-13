@@ -30,6 +30,8 @@ public class GeometricObject {
 	
 	public GeometricObject(Vertex pos){this(0,0,pos);}
 	
+	public GeometricObject(){this(10);}
+	
     public double getWidth(){return width;}
 	
     public double getHeight(){return height;}
