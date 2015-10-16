@@ -13,5 +13,5 @@ public class EquilateralTriangle extends GeometricObject{
 			return "EquilateralTriangle("+super.toString()+")";}
 	
 	@Override public boolean equals(Object that){
-		return(that instanceof SimpleOval && super.equals(that));}
+		return(that instanceof EquilateralTriangle && super.equals(that));}
 }

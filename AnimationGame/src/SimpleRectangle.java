@@ -15,6 +15,6 @@ public class SimpleRectangle extends GeometricObject{
 		return "SimpleRectangle("+super.toString()+")";}
 
 	@Override public boolean equals(Object that){
-		return(that instanceof SimpleOval && super.equals(that));}
+		return(that instanceof SimpleRectangle && super.equals(that));}
 	
 }
