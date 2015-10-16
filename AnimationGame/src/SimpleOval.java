@@ -9,6 +9,10 @@ public class SimpleOval extends GeometricObject {
 		super(w,h, new Vertex(x,y));
 	}
 	
+	public SimpleOval (double w, double h){
+		super(w,h);}
+	
+	
 	@Override public double area(){return Math.PI*width*height/4;}
 	
 	@Override public String toString(){

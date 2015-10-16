@@ -5,7 +5,7 @@ public class Square extends GeometricObject {
 		super(w, w, pos);
 	}
 
-	public Square (double w, double y){
+	public Square (double w, double x, double y){
 		super(w,w, new Vertex(0,0));
 	}
 	
