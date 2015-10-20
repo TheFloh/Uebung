@@ -3,7 +3,12 @@ public class FirstPanel extends JPanel{
 
 	@Override public void paintComponent(java.awt.Graphics g) {
 		g.fillRect(30,50,45,80);
+		g.fillOval(60,180,100,50);
+		
+	
 	}
+		
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
