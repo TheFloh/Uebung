@@ -15,3 +15,4 @@ public class EquilateralTriangle extends GeometricObject{
 	@Override public boolean equals(Object that){
 		return(that instanceof EquilateralTriangle && super.equals(that));}
 }
+a
