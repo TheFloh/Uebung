@@ -13,7 +13,7 @@ public class PaintablePanel extends SizedPanel{
 		// TODO Auto-generated method stub
 
 		ShowInFrame.show(new PaintablePanel(new PaintableOval(100,50,30,50)));
-		ShowInFrame.show(new PaintablePanel(new SimplePaintableRectangle(45,34)));
+		ShowInFrame.show(new PaintablePanel(new SimplePaintableRectangle(45,34,54,43)));
 	
 	}
 	
