@@ -1,10 +1,10 @@
-
+import java.awt.Color;
 public class TestGeometricObject {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		GeometricObject o1 = new GeometricObject(17,4, new Vertex(42,23));
+		GeometricObject o1 = new GeometricObject(17,4, new Vertex(42,23),new Color(23,56,34));
 		GeometricObject o2 = new GeometricObject(17,4);
 		GeometricObject o3 = new GeometricObject(17);
 		GeometricObject o4 = new GeometricObject();
