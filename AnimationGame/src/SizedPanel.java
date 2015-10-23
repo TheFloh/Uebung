@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 import java.awt.Dimension;
 public class SizedPanel extends JPanel {
