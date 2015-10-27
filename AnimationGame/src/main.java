@@ -3,14 +3,14 @@ public class main {
 
 	public static void main(String [] args){
 		
-		SimpleOval s1= new SimpleOval (45,53);
+		/*SimpleOval s1= new SimpleOval (45,53);
 		SimpleOval s2=new SimpleOval (45,53);
 		Square sq1=new Square(5, new Vertex(50,50));
 		Square sq2=new Square(5, new Vertex(50,50));		
 		System.out.println(s1.equals(s2));
 		System.out.println(s1);
 	
-		 /* Vertex v1 = new Vertex(42,53);
+		  Vertex v1 = new Vertex(42,53);
 		   Vertex v2 = new Vertex(32,4);
 		   System.out.println(v1.distance(v2));
 		   v2.normalize();
